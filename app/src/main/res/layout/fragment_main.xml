@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="@color/card_blue_bg"
+    android:paddingTop="36dp"
     tools:context=".fragments.MainFragment">
 
     <ImageView
