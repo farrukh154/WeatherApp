@@ -5,5 +5,5 @@ import com.example.weatherapp2.adapters.WeatherModel
 
 class MainViewModel : ViewModel() {
     val liveDataCurrent = MutableLiveData<WeatherModel>()
-    val liveDataList = MutableLiveData<List<String>>()
+    val liveDataList = MutableLiveData<List<WeatherModel>>()
 }
